@@ -1,0 +1,28 @@
+{
+  "name": "com.gladekit.unity",
+  "version": "1.0.0",
+  "displayName": "GladeKit Unity",
+  "description": "Agentic AI for Unity Game Dev - enables direct interaction with Unity through natural language. Describe what you want to build, and the AI will create scripts, manipulate GameObjects, add components, and perform other Unity operations automatically.",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "dependencies": {},
+  "keywords": [
+    "ai",
+    "agentic",
+    "assistant",
+    "gladekit",
+    "unity",
+    "game-dev"
+  ],
+  "author": {
+    "name": "Glade Tool Inc.",
+    "email": "support@gladekit.com",
+    "url": "https://gladekit.com"
+  },
+  "license": "See EULA.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/GladeKitUnity.git"
+  },
+  "samples": []
+}
