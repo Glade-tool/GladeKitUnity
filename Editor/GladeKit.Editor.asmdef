@@ -1,9 +1,7 @@
 {
   "name": "GladeKit.Editor",
   "rootNamespace": "GladeKit",
-  "references": [
-    "GladeKit.Runtime"
-  ],
+  "references": [],
   "includePlatforms": [
     "Editor"
   ],
