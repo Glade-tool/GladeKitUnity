@@ -1,8 +1,0 @@
-<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
-    <VisualElement name="assistant-root" class="assistant-root">
-        <VisualElement name="main-container" class="assistant-main-container" />
-        <VisualElement name="bottom-section" class="assistant-bottom-section">
-            <TextField name="prompt-text-field" class="assistant-prompt-text-field" multiline="true" placeholder-text="Start typing..." />
-        </VisualElement>
-    </VisualElement>
-</UXML>
