@@ -1,0 +1,64 @@
+/* AI Assistant window – UI Toolkit layout (prompt area) */
+
+.assistant-root {
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Reserve space at bottom so chat content isn't hidden behind the input area (~150px) */
+.assistant-main-container {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 0;
+    padding-bottom: 150px;
+}
+
+.assistant-bottom-section {
+    flex-direction: column;
+    flex-shrink: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 36px;
+    background-color: rgb(0, 0, 0);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0;
+}
+
+.assistant-prompt-text-field {
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0.85, 0.85, 0.88);
+    font-size: 13px;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    white-space: normal;
+}
+
+.assistant-prompt-text-field .unity-base-text-field__input {
+    background-color: rgb(0, 0, 0);
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    white-space: normal;
+}
+
+.assistant-button-row {
+    height: 40px;
+    margin-top: 8px;
+}
