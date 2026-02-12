@@ -1,4 +1,4 @@
-# GladeKitUnity
+# GladeKit - Deprecated Plugin
 
 > **⚠️ DEPRECATED**  
 > This repository contains the legacy GladeKit Unity plugin and is no longer maintained.
