@@ -1,32 +1,18 @@
 # GladeKitUnity
-Agentic AI for Unity Game Development
 
-## Overview
+> **⚠️ DEPRECATED**  
+> This repository contains the legacy GladeKit Unity plugin and is no longer maintained.
+> 
+> **Please use the new version:**
+> - 🔗 Repository: [GladeKitUnityPlugin](https://github.com/Glade-tool/GladeKitUnityPlugin)
+> - 🌐 Download: [gladekit.com](https://gladekit.com)
+>
+> The new GladeKit is a standalone application with significant improvements over this legacy plugin.
 
-GladeKit is an AI assistant that lives in Unity and builds your game with you. Describe what you want in plain English; the AI writes C# scripts, creates and edits GameObjects, adds components, and runs changes directly in the Editor.
+---
 
-## Quick Start
+### About
 
-1. **Before Starting**: Sign up for an account at [GladeKit](https://www.gladekit.com/) to get an active API Key.
-2. **Install GladeKit**: `Window → Package Management → Package Manager` and click the + button and press Install Package from Git URL. Copy in this URL and press install: https://github.com/Glade-tool/GladeKitUnity.git
-3. **Open the AI Assistant**: `Window → Glade → AI Assistant`
-4. **Set your API key**: Click the settings gear icon and paste your API key, hit save or validate to.
-5. **Start building**: Type what you want to create and press Enter
+**GladeKit** is an agentic AI assistant for game development, designed to accelerate game development workflows.
 
-## Why use GladeKit?
-
-The problem with existing AI tools is that they don't integrate directly with Unity, which means you constantly have to describe your scene, project context, and much more. Moreover, most existing tools are not able to take action directly in Unity - they can't help you edit your actual scene or anything in the Editor itself.
-
-GladeKit instead:
-- Understands your project – Uses your scene hierarchy, scripts, selection, and settings so suggestions fit your setup.
-- Acts in the Editor – Creates and edits scripts, GameObjects, components, prefabs, materials, UI, physics, and more, without leaving Unity.
-- Lets you choose – Pick your model (GPT-5, GPT-4, GPT-3.5 Turbo, or Claude 4.5 / Claude 3), adjust how much context is sent, and switch between Create, Debug, and Brainstorm modes.
-
-You can just ask the agent to:
-- “Add a player with WASD movement and a third person camera perspective”
-- “Enable collision for my player character prefab”
-- “Create a main menu with a Play button and settings”
-- “Make an enemy that patrols between two points”
-- “Find objects with a Renderer but no material and assign a default”
-
-Click [here](https://www.gladekit.com/docs/quickstart) for more detail documentation on how to install and use GladeKit.
+For the latest version and documentation, visit [gladekit.com](https://gladekit.com).
